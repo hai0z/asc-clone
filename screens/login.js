@@ -77,20 +77,12 @@ const login = ({ navigation }) => {
                     </Text>
                 </View>
                 <View style={choseSchool}>
-                    <FontAwesome5
-                        name="house-damage"
-                        size={24}
-                        color="#4b6889"
-                    />
+                    <FontAwesome5 name="house-damage" size={24} color="#4b6889" />
                     <View>
                         <Text style={textTitle}>Trường Đại học Kinh tế</Text>
                         <Text style={textTitle}>- Kỹ thuật Công nghiệp</Text>
                     </View>
-                    <SimpleLineIcons
-                        name="options-vertical"
-                        size={24}
-                        color="#4b6889"
-                    />
+                    <SimpleLineIcons name="options-vertical" size={24} color="#4b6889" />
                 </View>
                 <Loading visible={loadingVisible} />
                 <View style={loginForm}>
@@ -111,19 +103,13 @@ const login = ({ navigation }) => {
                     />
 
                     <TouchableOpacity style={loginBtn} onPress={() => login()}>
-                        <Text style={{ color: "#fff", fontSize: 16 }}>
-                            Đăng nhập
-                        </Text>
+                        <Text style={{ color: "#fff", fontSize: 16 }}>Đăng nhập</Text>
                     </TouchableOpacity>
                 </View>
             </View>
             <View style={foodter}>
-                <Text style={textFooter}>
-                    Điều khoản sử dụng và chính sách ASC
-                </Text>
-                <Text
-                    style={{ ...textFooter, fontWeight: "bold", fontSize: 18 }}
-                >
+                <Text style={textFooter}>Điều khoản sử dụng và chính sách ASC</Text>
+                <Text style={{ ...textFooter, fontWeight: "bold", fontSize: 18 }}>
                     ascvn.com.vn
                 </Text>
             </View>
